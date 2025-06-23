@@ -1,0 +1,53 @@
+{
+    "success": true,
+    "data": [
+        {
+            "name": "Communication",
+            "current_level": "beginner",
+            "points": 1280,
+            "current_level_points": 280,
+            "next_level_threshold": 2000,
+            "level_name": "Beginner"
+        },
+        {
+            "name": "Emotional intelligence",
+            "current_level": "intermediate",
+            "points": 2470,
+            "current_level_points": 470,
+            "next_level_threshold": 3000,
+            "level_name": "Intermediate"
+        },
+        {
+            "name": "Critical thinking",
+            "current_level": "advanced",
+            "points": 3689,
+            "current_level_points": 689,
+            "next_level_threshold": 4000,
+            "level_name": "Advanced"
+        },
+        {
+            "name": "Leadership & management",
+            "current_level": "expert",
+            "points": 4327,
+            "current_level_points": 327,
+            "next_level_threshold": 5000,
+            "level_name": "Expert"
+        },
+        {
+            "name": "Conflict resolution",
+            "current_level": "elite",
+            "points": 5698,
+            "current_level_points": 698,
+            "next_level_threshold": 6000,
+            "level_name": "Elite"
+        },
+        {
+            "name": "Networking",
+            "current_level": "master",
+            "points": 6394,
+            "current_level_points": 394,
+            "next_level_threshold": 7000,
+            "level_name": "Master"
+        }
+    ]
+}
