@@ -12,13 +12,13 @@ An interactive dashboard that visually displays users' skill levels and growth u
 - Styled using **Tailwind CSS**
 - Design inspired by provided mockups
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Recharts](https://recharts.org/)
 
-## 📂 Project Structure
+## Project Structure
 
 src/
 ├── components/
@@ -32,7 +32,7 @@ src/
 └── App.jsx
 
 
-## 📦 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
