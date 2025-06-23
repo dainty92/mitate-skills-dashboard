@@ -9,10 +9,10 @@ export default function SkillRadarChart({ data }) {
                 <PolarGrid radialLines={false} stroke="#e0e0e7" strokeWidth={3} />
                 
                 {/* Current Level Points */}
-                <Radar name="Current" dataKey="points" stroke="#4a32e5" strokeWidth={5} fill="#4a32e5" fillOpacity={0.6} />
+                <Radar name="Current" dataKey="points" stroke="#4a32e5" strokeWidth={4} fill="#4a32e5" fillOpacity={0.3} />
 
                 {/* Target Points */}
-                <Radar name="Target" dataKey="target" stroke="#e6d547" strokeWidth={5} fill="#e6d547" fillOpacity={0.3} />
+                <Radar name="Target" dataKey="target" stroke="#e6d547" strokeWidth={4} fill="#e6d547" fillOpacity={0.3} />
                 
                 <PolarAngleAxis dataKey="skill" tick={({ payload, x, y, textAnchor }) => {
                     const icon = skillIcons[payload.value];
