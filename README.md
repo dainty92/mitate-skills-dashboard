@@ -12,26 +12,6 @@ An interactive dashboard that visually displays users' skill levels and growth u
 - Styled using **Tailwind CSS**
 - Design inspired by provided mockups
 
-## Tech Stack
-
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Recharts](https://recharts.org/)
-
-## Project Structure
-
-src/
-├── components/
-│ ├── SkillCard.jsx # Renders each skill with progress bar
-│ ├── SkillList.jsx # Container for all skills + chart
-│ ├── SkillRadarChart.jsx # Recharts radar chart component
-│ └── Header.jsx # Mobile header
-├── data/
-│ ├── chartData.js # Data for radar chart
-│ ├── skills.json # Mocked skill data (points, levels, etc.)
-└── App.jsx
-
-
 ## Getting Started
 
 ### 1. Clone the Repository
