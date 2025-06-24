@@ -18,7 +18,7 @@ An interactive dashboard that visually displays users' skill levels and growth u
 
 ```bash
 git clone https://github.com/dainty92/mitate-skills-dashboard.git
-cd skill-dashboard
+cd mitate-skills-dashboard
 ```
 
 ### 2. Install Dependencies
