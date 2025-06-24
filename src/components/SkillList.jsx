@@ -42,13 +42,15 @@ export default function SkillList({ skills }) {
         </div>
 
         {/* Skill Cards */}
-        {!isHidden && (
-            <div>
-                {skills.map((skill, index) => (
-                    <SkillCard key={index} skill={skill} />
-                ))}
-            </div>
-        )}
+        <div className={`transition-all duration-300 ${isHidden ? "min-h-[400px]" : ""}`}>
+            {!isHidden && (
+                <div>
+                    {skills.map((skill, index) => (
+                        <SkillCard key={index} skill={skill} />
+                    ))}
+                </div>
+            )}
+        </div>
     </div>
     );
 }
